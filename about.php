@@ -44,7 +44,7 @@
 					<p class="lead">This online DevOps Maturity Assessment questionnaire will help you understand your current strengths and weaknesses and then recommend resources that can support you in taking the next steps on your DevOps journey.</p>
 					<p>
 						<a href="<?='section-' . SectionNameToURLName($survey->sections[0]['SectionName'])?>" class="btn btn-primary">Start the Questionnaire</a>
-						<a href="https://github.com/atosorigin/DevOpsMaturityAssessment" target="_blank" class="btn btn-secondary">Fork us on GitHub</a>
+<!--						<a href="https://github.com/atosorigin/DevOpsMaturityAssessment" target="_blank" class="btn btn-secondary">Fork us on GitHub</a> -->
 					</p>
 				</div>
 			</section>
@@ -52,7 +52,7 @@
 			<!-- Three columns of text below the jumbotron -->
 			<div class="row">
 			
-				<div class="col-lg-4">
+				<div class="col-lg-6">
 					<span class="fa-stack fa-5x mb-4">
 						<i class="fas fa-circle fa-stack-2x text-primary"></i>
 						<i class="far fa-chart-bar fa-stack-1x"></i>
@@ -62,7 +62,7 @@
 					<p class="text-justify">You can view the results online as well as downloading them in CSV format for more detailed analysis.</p>
 				</div><!-- /.col-lg-4 -->
 			
-				<div class="col-lg-4">
+				<div class="col-lg-6">
 					<span class="fa-stack fa-5x mb-4">
 						<i class="fas fa-circle fa-stack-2x text-primary"></i>
 						<i class="fas fa-shoe-prints fa-stack-1x"></i>
@@ -72,13 +72,13 @@
 				</div><!-- /.col-lg-4 -->
 		  
 
-				<div class="col-lg-4">
+<!--				<div class="col-lg-4">
 					<span class="fa-stack fa-5x mb-4">
 						<i class="fas fa-circle fa-stack-2x text-primary"></i>
 						<i class="fas fa-lock-open fa-stack-1x"></i>
 					</span>
 					<h2>Free and Open Source</h2>
-					<p class="text-justify">This tool is made available under the MIT License: you are free to use, adapt and redistribute it, both for commercial and non-commercial use. There is no obligation to share your changes, although we always appreciate feedback! Why not <a href="https://github.com/atosorigin/DevOpsMaturityAssessment" target="_blank">fork us on GitHub</a>?</p>
+					<p class="text-justify">This tool is made available under the MIT License: you are free to use, adapt and redistribute it, both for commercial and non-commercial use. There is no obligation to share your changes, although we always appreciate feedback! <!-- Why not <a href="https://github.com/atosorigin/DevOpsMaturityAssessment" target="_blank">fork us on GitHub</a>? --> </p> 
 		
 				</div><!-- /.col-lg-4 -->
 				
@@ -87,8 +87,8 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<p align="center"><em>We do not harvest your data and we will not share your results with anyone else.</em></p>
-				</div>
-			</div>
+				</div> -->
+<!--			</div>
 		  
 			<section class="jumbotron text-center border border-primary bg-dark mt-2">
 				<div class="container">
@@ -188,9 +188,9 @@
 								<?=RenderTwitterLink('https://twitter.com/UsherDL')?>
 							</div>
 						</div>
-					
+					                  
 
-					</div>
+					</div>  -->
 					
 				
 				</div><!-- /.col-lg-12 -->
